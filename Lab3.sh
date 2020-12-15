@@ -4,4 +4,4 @@ yum update -y
 yum install httpd -y
 sudo service httpd start
 chkconfig httpd on
-echo "End"
+echo "I'm alive!" /var/www/html/index.html
